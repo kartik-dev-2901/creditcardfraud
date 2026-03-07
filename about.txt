@@ -1,0 +1,48 @@
+# Credit Card Fraud Detection using Data Mining
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+## Overview
+This project implements a **Credit Card Fraud Detection System** using various **data mining and machine learning techniques**.  
+The goal is to analyze credit card transaction data and identify **fraudulent transactions**.
+
+The project includes **data preprocessing, visualization, classification, clustering, and association rule mining**, along with a small **interactive dashboard** built using Streamlit.
+
+---
+
+## Dataset
+The dataset contains **credit card transactions made by European cardholders**.
+
+Key characteristics:
+
+- Total transactions: **284,807**
+- Fraudulent transactions: **492**
+- Highly **imbalanced dataset**
+
+Important columns:
+
+- `Time` – seconds elapsed between transactions
+- `Amount` – transaction amount
+- `V1–V28` – anonymized features obtained through PCA
+- `Class` – target variable  
+  - `0` → Normal transaction  
+  - `1` → Fraud transaction
+
+---
+
+## Project Flow
+
+
+Dataset
+↓
+Data Preprocessing
+↓
+Exploratory Data Analysis
+↓
+Classification Models
+↓
+Clustering
+↓
+Association Rule Mining
+↓
+Model Evaluation
+↓
+Interactive Dashboard

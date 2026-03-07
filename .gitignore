@@ -1,0 +1,24 @@
+# virtual environment
+venv/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# streamlit cache
+.streamlit/
+
+# large model files
+*.pkl
+*.joblib
+
+#data
+creditcard.csv
